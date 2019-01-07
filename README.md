@@ -14,9 +14,10 @@ To store the DJI key, create a xml-file with the following content in the folder
 
 ```
 <resources>
-    <string name="dji_api_key" templateMergeStrategy="preserve" translatable="false"> dd0bd2ad108be95abf0ac6aa </string>
+    <string name="dji_api_key" templateMergeStrategy="preserve" translatable="false"> MY_API_KEY </string>
 </resources>
 ```
+MY_API_KEY should be replaced with the actual api key.
 
 To release your app, copy the same file in the folder /app/src/release/res/values/. It may contain a different API key.
 
